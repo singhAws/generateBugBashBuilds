@@ -1,0 +1,1121 @@
+{
+  "manifestSchemaVersion": "0.1",
+  "artifactId": "CodeWhispererStandaloneRuntimeServer",
+  "artifactDescription": "LSP servers with CodeWhisperer on standalone runtime",
+  "isManifestDeprecated": false,
+  "versions": [
+    {
+      "serverVersion": "1.7.0",
+      "isDelisted": false,
+      "runtime": {
+        "name": "standalone",
+        "version": "0.2.88"
+      },
+      "capabilities": [
+        {
+          "name": "code-whisperer-lsp-server",
+          "version": "0.0.40"
+        }
+      ],
+      "protocol": [
+        {
+          "name": "protocol",
+          "version": "0.2.88"
+        },
+        {
+          "name": "types",
+          "version": "0.1.33"
+        }
+      ],
+      "thirdPartyLicenses": "https://aws-language-servers.us-east-1.amazonaws.com/8a9212d9-901b-4d96-ab9b-b26342258356/THIRD_PARTY_LICENSES",
+      "targets": [
+        {
+          "platform": "windows",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/8a9212d9-901b-4d96-ab9b-b26342258356/qAgenticChatServer/win-x64/servers.zip",
+              "hashes": [
+                "sha384:f6c45a891a925da554eaa7ba66e5f6bda343f1ce70fec11ec91921ecce6d46dd204b07006f6fce34f0bc06038e627c2c"
+              ],
+              "bytes": 144617376
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/8a9212d9-901b-4d96-ab9b-b26342258356/clients.zip",
+              "hashes": [
+                "sha384:4ca0afaa08a928088bae41fa438efaab35dea2b14d21ba1494fb4eb2dc8e13cf933d0a275d2072ae3bb2ffae5901de4e"
+              ],
+              "bytes": 1607111
+            }
+          ]
+        },
+        {
+          "platform": "windows",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/8a9212d9-901b-4d96-ab9b-b26342258356/qAgenticChatServer/win-x64/servers.zip",
+              "hashes": [
+                "sha384:f6c45a891a925da554eaa7ba66e5f6bda343f1ce70fec11ec91921ecce6d46dd204b07006f6fce34f0bc06038e627c2c"
+              ],
+              "bytes": 144617376
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/8a9212d9-901b-4d96-ab9b-b26342258356/clients.zip",
+              "hashes": [
+                "sha384:4ca0afaa08a928088bae41fa438efaab35dea2b14d21ba1494fb4eb2dc8e13cf933d0a275d2072ae3bb2ffae5901de4e"
+              ],
+              "bytes": 1607111
+            }
+          ]
+        },
+        {
+          "platform": "linux",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/8a9212d9-901b-4d96-ab9b-b26342258356/qAgenticChatServer/linux-x64/servers.zip",
+              "hashes": [
+                "sha384:a7473eb21efa794effeeb36df68ea2a215b4f3e49d3ab81d3f04c5a5120921ecaf4f0e35a6af16eeeb61a373831714b1"
+              ],
+              "bytes": 152392655
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/8a9212d9-901b-4d96-ab9b-b26342258356/clients.zip",
+              "hashes": [
+                "sha384:4ca0afaa08a928088bae41fa438efaab35dea2b14d21ba1494fb4eb2dc8e13cf933d0a275d2072ae3bb2ffae5901de4e"
+              ],
+              "bytes": 1607111
+            }
+          ]
+        },
+        {
+          "platform": "linux",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/8a9212d9-901b-4d96-ab9b-b26342258356/qAgenticChatServer/linux-arm64/servers.zip",
+              "hashes": [
+                "sha384:9966818b1149233678248dcf51a594684d6431fa778523e3c6842e18277344a2e382821634ec590149958d81cacca1cd"
+              ],
+              "bytes": 139755573
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/8a9212d9-901b-4d96-ab9b-b26342258356/clients.zip",
+              "hashes": [
+                "sha384:4ca0afaa08a928088bae41fa438efaab35dea2b14d21ba1494fb4eb2dc8e13cf933d0a275d2072ae3bb2ffae5901de4e"
+              ],
+              "bytes": 1607111
+            }
+          ]
+        },
+        {
+          "platform": "darwin",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/8a9212d9-901b-4d96-ab9b-b26342258356/qAgenticChatServer/mac-x64/servers.zip",
+              "hashes": [
+                "sha384:b83df79f66b1b04a6d89b64ae1708088edcf9193007e346e32fc805dc9c0c340c4ed77c30a885591aee24876d16112ee"
+              ],
+              "bytes": 132310846
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/8a9212d9-901b-4d96-ab9b-b26342258356/clients.zip",
+              "hashes": [
+                "sha384:4ca0afaa08a928088bae41fa438efaab35dea2b14d21ba1494fb4eb2dc8e13cf933d0a275d2072ae3bb2ffae5901de4e"
+              ],
+              "bytes": 1607111
+            }
+          ]
+        },
+        {
+          "platform": "darwin",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/8a9212d9-901b-4d96-ab9b-b26342258356/qAgenticChatServer/mac-arm64/servers.zip",
+              "hashes": [
+                "sha384:619645048114ac84e80a48b3f1ef9138af012d0e16da88b0ba140d5ebd27bb30d030740472e3a65ec94be3c1277c2c81"
+              ],
+              "bytes": 129110670
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/8a9212d9-901b-4d96-ab9b-b26342258356/clients.zip",
+              "hashes": [
+                "sha384:4ca0afaa08a928088bae41fa438efaab35dea2b14d21ba1494fb4eb2dc8e13cf933d0a275d2072ae3bb2ffae5901de4e"
+              ],
+              "bytes": 1607111
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serverVersion": "1.4.0",
+      "isDelisted": false,
+      "runtime": {
+        "name": "standalone",
+        "version": "0.2.85"
+      },
+      "capabilities": [
+        {
+          "name": "code-whisperer-lsp-server",
+          "version": "0.0.40"
+        }
+      ],
+      "protocol": [
+        {
+          "name": "protocol",
+          "version": "0.2.85"
+        },
+        {
+          "name": "types",
+          "version": "0.1.31"
+        }
+      ],
+      "thirdPartyLicenses": "https://aws-language-servers.us-east-1.amazonaws.com/1e025b80-d9cc-495b-ae06-f693fe7816ff/THIRD_PARTY_LICENSES",
+      "targets": [
+        {
+          "platform": "windows",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/1e025b80-d9cc-495b-ae06-f693fe7816ff/qAgenticChatServer/win-x64/servers.zip",
+              "hashes": [
+                "sha384:cd517d8cdf30fddc017fdd2193f5c35eba1e101a40e7341af875f388e45b303982aa5d4e49945738c378543410df4443"
+              ],
+              "bytes": 144608811
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/1e025b80-d9cc-495b-ae06-f693fe7816ff/clients.zip",
+              "hashes": [
+                "sha384:4170b2e39e6a58ddba3061eb603c87ddc5ab3edc85ba614a7b74096c35776a9d200b0f023f5a28c0ca4a4195928f449b"
+              ],
+              "bytes": 1606892
+            }
+          ]
+        },
+        {
+          "platform": "windows",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/1e025b80-d9cc-495b-ae06-f693fe7816ff/qAgenticChatServer/win-x64/servers.zip",
+              "hashes": [
+                "sha384:cd517d8cdf30fddc017fdd2193f5c35eba1e101a40e7341af875f388e45b303982aa5d4e49945738c378543410df4443"
+              ],
+              "bytes": 144608811
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/1e025b80-d9cc-495b-ae06-f693fe7816ff/clients.zip",
+              "hashes": [
+                "sha384:4170b2e39e6a58ddba3061eb603c87ddc5ab3edc85ba614a7b74096c35776a9d200b0f023f5a28c0ca4a4195928f449b"
+              ],
+              "bytes": 1606892
+            }
+          ]
+        },
+        {
+          "platform": "linux",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/1e025b80-d9cc-495b-ae06-f693fe7816ff/qAgenticChatServer/linux-x64/servers.zip",
+              "hashes": [
+                "sha384:1c7f6f2d95c39ffc687178e3196d846f9ffc237795fc0770f288f44ae743ad511cd6300f24270360d74169894dbfe034"
+              ],
+              "bytes": 152384090
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/1e025b80-d9cc-495b-ae06-f693fe7816ff/clients.zip",
+              "hashes": [
+                "sha384:4170b2e39e6a58ddba3061eb603c87ddc5ab3edc85ba614a7b74096c35776a9d200b0f023f5a28c0ca4a4195928f449b"
+              ],
+              "bytes": 1606892
+            }
+          ]
+        },
+        {
+          "platform": "linux",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/1e025b80-d9cc-495b-ae06-f693fe7816ff/qAgenticChatServer/linux-arm64/servers.zip",
+              "hashes": [
+                "sha384:25c0b5d646171017fe531df4f2c9b417533fceb65e450e253d139f48adf73376167d70bfbb40def41ee2fe3529e5553c"
+              ],
+              "bytes": 139747008
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/1e025b80-d9cc-495b-ae06-f693fe7816ff/clients.zip",
+              "hashes": [
+                "sha384:4170b2e39e6a58ddba3061eb603c87ddc5ab3edc85ba614a7b74096c35776a9d200b0f023f5a28c0ca4a4195928f449b"
+              ],
+              "bytes": 1606892
+            }
+          ]
+        },
+        {
+          "platform": "darwin",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/1e025b80-d9cc-495b-ae06-f693fe7816ff/qAgenticChatServer/mac-x64/servers.zip",
+              "hashes": [
+                "sha384:6c05c7e7a2e9949c859915a8d432857efd470a0ae90368e1d007e53b9099415776480cf874e02aefce772be3c816be4c"
+              ],
+              "bytes": 132302281
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/1e025b80-d9cc-495b-ae06-f693fe7816ff/clients.zip",
+              "hashes": [
+                "sha384:4170b2e39e6a58ddba3061eb603c87ddc5ab3edc85ba614a7b74096c35776a9d200b0f023f5a28c0ca4a4195928f449b"
+              ],
+              "bytes": 1606892
+            }
+          ]
+        },
+        {
+          "platform": "darwin",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/1e025b80-d9cc-495b-ae06-f693fe7816ff/qAgenticChatServer/mac-arm64/servers.zip",
+              "hashes": [
+                "sha384:7551315d24c0d54352749a230f9193254cdcecd00bd0f6a3d473c20da388fcee4ccacf5877ba570beae8d729cd349f83"
+              ],
+              "bytes": 129102105
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/1e025b80-d9cc-495b-ae06-f693fe7816ff/clients.zip",
+              "hashes": [
+                "sha384:4170b2e39e6a58ddba3061eb603c87ddc5ab3edc85ba614a7b74096c35776a9d200b0f023f5a28c0ca4a4195928f449b"
+              ],
+              "bytes": 1606892
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serverVersion": "1.3.0",
+      "isDelisted": false,
+      "runtime": {
+        "name": "standalone",
+        "version": "0.2.80"
+      },
+      "capabilities": [
+        {
+          "name": "code-whisperer-lsp-server",
+          "version": "0.0.39"
+        }
+      ],
+      "protocol": [
+        {
+          "name": "protocol",
+          "version": "0.2.80"
+        },
+        {
+          "name": "types",
+          "version": "0.1.27"
+        }
+      ],
+      "thirdPartyLicenses": "https://aws-language-servers.us-east-1.amazonaws.com/0e84c185-ee88-460f-8c31-61a743326d3c/THIRD_PARTY_LICENSES",
+      "targets": [
+        {
+          "platform": "windows",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/0e84c185-ee88-460f-8c31-61a743326d3c/qAgenticChatServer/win-x64/servers.zip",
+              "hashes": [
+                "sha384:07d6911a1e06be54af08e1ee60a1f8e4bba82899dff63906f8543e7f51730c0eda6a13baf87c6fed4fd06f67dfa65915"
+              ],
+              "bytes": 142539106
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/0e84c185-ee88-460f-8c31-61a743326d3c/clients.zip",
+              "hashes": [
+                "sha384:9b3363207829ff2d4709eb681081a0ff6f41a645fdb1953185eba58fd2b9b56e294a1ca064f25af468f9474d2a8d144d"
+              ],
+              "bytes": 1607152
+            }
+          ]
+        },
+        {
+          "platform": "windows",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/0e84c185-ee88-460f-8c31-61a743326d3c/qAgenticChatServer/win-x64/servers.zip",
+              "hashes": [
+                "sha384:07d6911a1e06be54af08e1ee60a1f8e4bba82899dff63906f8543e7f51730c0eda6a13baf87c6fed4fd06f67dfa65915"
+              ],
+              "bytes": 142539106
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/0e84c185-ee88-460f-8c31-61a743326d3c/clients.zip",
+              "hashes": [
+                "sha384:9b3363207829ff2d4709eb681081a0ff6f41a645fdb1953185eba58fd2b9b56e294a1ca064f25af468f9474d2a8d144d"
+              ],
+              "bytes": 1607152
+            }
+          ]
+        },
+        {
+          "platform": "linux",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/0e84c185-ee88-460f-8c31-61a743326d3c/qAgenticChatServer/linux-x64/servers.zip",
+              "hashes": [
+                "sha384:9d692303e47a0a0ee80f90c6724b73a609a25535e3a010004b04e8bc0cc6fd978ddd6366e2e9eb13ded6788e51cda4b1"
+              ],
+              "bytes": 149867898
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/0e84c185-ee88-460f-8c31-61a743326d3c/clients.zip",
+              "hashes": [
+                "sha384:9b3363207829ff2d4709eb681081a0ff6f41a645fdb1953185eba58fd2b9b56e294a1ca064f25af468f9474d2a8d144d"
+              ],
+              "bytes": 1607152
+            }
+          ]
+        },
+        {
+          "platform": "linux",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/0e84c185-ee88-460f-8c31-61a743326d3c/qAgenticChatServer/linux-arm64/servers.zip",
+              "hashes": [
+                "sha384:29f65baa949807d2272bae3f008536e79e9e494e7cf029cdc1cdc8a2032527134b4a65d5dfb21d097587717a78bd947c"
+              ],
+              "bytes": 137748597
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/0e84c185-ee88-460f-8c31-61a743326d3c/clients.zip",
+              "hashes": [
+                "sha384:9b3363207829ff2d4709eb681081a0ff6f41a645fdb1953185eba58fd2b9b56e294a1ca064f25af468f9474d2a8d144d"
+              ],
+              "bytes": 1607152
+            }
+          ]
+        },
+        {
+          "platform": "darwin",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/0e84c185-ee88-460f-8c31-61a743326d3c/qAgenticChatServer/mac-x64/servers.zip",
+              "hashes": [
+                "sha384:3ef0bf8a2faeea1e97ce093cd18f84f5b523e3f3e6a8e435d38be2f05a5698e71daf60b298a90fc5761355a9a53e7f2f"
+              ],
+              "bytes": 130261391
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/0e84c185-ee88-460f-8c31-61a743326d3c/clients.zip",
+              "hashes": [
+                "sha384:9b3363207829ff2d4709eb681081a0ff6f41a645fdb1953185eba58fd2b9b56e294a1ca064f25af468f9474d2a8d144d"
+              ],
+              "bytes": 1607152
+            }
+          ]
+        },
+        {
+          "platform": "darwin",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/0e84c185-ee88-460f-8c31-61a743326d3c/qAgenticChatServer/mac-arm64/servers.zip",
+              "hashes": [
+                "sha384:647c66b499bd734d800ea86a3b7b85978777964019c503c34a6887f759f25f3a61879c2c638008bea026d693a7b860bb"
+              ],
+              "bytes": 127357946
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/0e84c185-ee88-460f-8c31-61a743326d3c/clients.zip",
+              "hashes": [
+                "sha384:9b3363207829ff2d4709eb681081a0ff6f41a645fdb1953185eba58fd2b9b56e294a1ca064f25af468f9474d2a8d144d"
+              ],
+              "bytes": 1607152
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serverVersion": "1.2.0",
+      "isDelisted": false,
+      "runtime": {
+        "name": "standalone",
+        "version": "0.2.78"
+      },
+      "capabilities": [
+        {
+          "name": "code-whisperer-lsp-server",
+          "version": "0.0.36"
+        }
+      ],
+      "protocol": [
+        {
+          "name": "protocol",
+          "version": "0.2.78"
+        },
+        {
+          "name": "types",
+          "version": "0.1.26"
+        }
+      ],
+      "thirdPartyLicenses": "https://aws-language-servers.us-east-1.amazonaws.com/6bcda3a9-31f4-4013-bcba-49791ec98464/THIRD_PARTY_LICENSES",
+      "targets": [
+        {
+          "platform": "windows",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/6bcda3a9-31f4-4013-bcba-49791ec98464/qAgenticChatServer/win-x64/servers.zip",
+              "hashes": [
+                "sha384:d0c98e16e3cdfa7e57cb67398fd0afe4dfb11999b19536999445f8155456d74f996716b34ad1e0648b4c6fbc3d5b9fbe"
+              ],
+              "bytes": 142536661
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/6bcda3a9-31f4-4013-bcba-49791ec98464/clients.zip",
+              "hashes": [
+                "sha384:39550729cee87592a68dc264ce8245e4d200ef67493a0d4ef69ec2ff630b34ac3902c57ab9fb8d9564ed7b04c4f8630d"
+              ],
+              "bytes": 1605499
+            }
+          ]
+        },
+        {
+          "platform": "windows",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/6bcda3a9-31f4-4013-bcba-49791ec98464/qAgenticChatServer/win-x64/servers.zip",
+              "hashes": [
+                "sha384:d0c98e16e3cdfa7e57cb67398fd0afe4dfb11999b19536999445f8155456d74f996716b34ad1e0648b4c6fbc3d5b9fbe"
+              ],
+              "bytes": 142536661
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/6bcda3a9-31f4-4013-bcba-49791ec98464/clients.zip",
+              "hashes": [
+                "sha384:39550729cee87592a68dc264ce8245e4d200ef67493a0d4ef69ec2ff630b34ac3902c57ab9fb8d9564ed7b04c4f8630d"
+              ],
+              "bytes": 1605499
+            }
+          ]
+        },
+        {
+          "platform": "linux",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/6bcda3a9-31f4-4013-bcba-49791ec98464/qAgenticChatServer/linux-x64/servers.zip",
+              "hashes": [
+                "sha384:1a28a7fa82308349d17e737266afa37ca18421244fc7cf34d8792edda8fa2f39820019dc1128827a6afa35bcfadfddbb"
+              ],
+              "bytes": 149865453
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/6bcda3a9-31f4-4013-bcba-49791ec98464/clients.zip",
+              "hashes": [
+                "sha384:39550729cee87592a68dc264ce8245e4d200ef67493a0d4ef69ec2ff630b34ac3902c57ab9fb8d9564ed7b04c4f8630d"
+              ],
+              "bytes": 1605499
+            }
+          ]
+        },
+        {
+          "platform": "linux",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/6bcda3a9-31f4-4013-bcba-49791ec98464/qAgenticChatServer/linux-arm64/servers.zip",
+              "hashes": [
+                "sha384:7a914e9d7e9237b2b0f5d6ed74c0262a2779a782fcace55a31e07acca4429567b4773793fb1f3e44bead896482cdf236"
+              ],
+              "bytes": 137746152
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/6bcda3a9-31f4-4013-bcba-49791ec98464/clients.zip",
+              "hashes": [
+                "sha384:39550729cee87592a68dc264ce8245e4d200ef67493a0d4ef69ec2ff630b34ac3902c57ab9fb8d9564ed7b04c4f8630d"
+              ],
+              "bytes": 1605499
+            }
+          ]
+        },
+        {
+          "platform": "darwin",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/6bcda3a9-31f4-4013-bcba-49791ec98464/qAgenticChatServer/mac-x64/servers.zip",
+              "hashes": [
+                "sha384:3a21e6fcae62c9634af8c731747fd4ffd102f98818233cb37020fcf17d9a7d5a56b1bdc0b7fa16aa91359abf4157aab8"
+              ],
+              "bytes": 130258946
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/6bcda3a9-31f4-4013-bcba-49791ec98464/clients.zip",
+              "hashes": [
+                "sha384:39550729cee87592a68dc264ce8245e4d200ef67493a0d4ef69ec2ff630b34ac3902c57ab9fb8d9564ed7b04c4f8630d"
+              ],
+              "bytes": 1605499
+            }
+          ]
+        },
+        {
+          "platform": "darwin",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/6bcda3a9-31f4-4013-bcba-49791ec98464/qAgenticChatServer/mac-arm64/servers.zip",
+              "hashes": [
+                "sha384:85749332be08ab289776e9844a804a85178130cab3d52e75b0da76dc6a54ccc98478ad7c7f0405370632a15dae6f79cf"
+              ],
+              "bytes": 127355501
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/6bcda3a9-31f4-4013-bcba-49791ec98464/clients.zip",
+              "hashes": [
+                "sha384:39550729cee87592a68dc264ce8245e4d200ef67493a0d4ef69ec2ff630b34ac3902c57ab9fb8d9564ed7b04c4f8630d"
+              ],
+              "bytes": 1605499
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serverVersion": "1.1.0",
+      "isDelisted": false,
+      "runtime": {
+        "name": "standalone",
+        "version": "0.2.78"
+      },
+      "capabilities": [
+        {
+          "name": "code-whisperer-lsp-server",
+          "version": "0.0.35"
+        }
+      ],
+      "protocol": [
+        {
+          "name": "protocol",
+          "version": "0.2.78"
+        },
+        {
+          "name": "types",
+          "version": "0.1.26"
+        }
+      ],
+      "thirdPartyLicenses": "https://aws-language-servers.us-east-1.amazonaws.com/f7b59d87-204c-4930-b62a-375730fd2335/THIRD_PARTY_LICENSES",
+      "targets": [
+        {
+          "platform": "windows",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/f7b59d87-204c-4930-b62a-375730fd2335/qAgenticChatServer/win-x64/servers.zip",
+              "hashes": [
+                "sha384:e55a438f657b8c0d6aa717819a031ebc50c1aa45641fe40f8e58ad8c518df2b4d7fea0aee46d7039c9cb2cb937379583"
+              ],
+              "bytes": 142271352
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/f7b59d87-204c-4930-b62a-375730fd2335/clients.zip",
+              "hashes": [
+                "sha384:176e0ee6537e8d5691472a87a383f75266e94ad213d8268d2d606a1ddc54b5a17fa6aafb7fc52053449112fa8b52d1f0"
+              ],
+              "bytes": 1605331
+            }
+          ]
+        },
+        {
+          "platform": "windows",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/f7b59d87-204c-4930-b62a-375730fd2335/qAgenticChatServer/win-x64/servers.zip",
+              "hashes": [
+                "sha384:e55a438f657b8c0d6aa717819a031ebc50c1aa45641fe40f8e58ad8c518df2b4d7fea0aee46d7039c9cb2cb937379583"
+              ],
+              "bytes": 142271352
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/f7b59d87-204c-4930-b62a-375730fd2335/clients.zip",
+              "hashes": [
+                "sha384:176e0ee6537e8d5691472a87a383f75266e94ad213d8268d2d606a1ddc54b5a17fa6aafb7fc52053449112fa8b52d1f0"
+              ],
+              "bytes": 1605331
+            }
+          ]
+        },
+        {
+          "platform": "linux",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/f7b59d87-204c-4930-b62a-375730fd2335/qAgenticChatServer/linux-x64/servers.zip",
+              "hashes": [
+                "sha384:9466f4dc1d95bbc5ef0830a1460a6d7befc1b4679fc3491b90194dc66f03f23e58c7cf21a25472541db07b2241c5b670"
+              ],
+              "bytes": 149600144
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/f7b59d87-204c-4930-b62a-375730fd2335/clients.zip",
+              "hashes": [
+                "sha384:176e0ee6537e8d5691472a87a383f75266e94ad213d8268d2d606a1ddc54b5a17fa6aafb7fc52053449112fa8b52d1f0"
+              ],
+              "bytes": 1605331
+            }
+          ]
+        },
+        {
+          "platform": "linux",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/f7b59d87-204c-4930-b62a-375730fd2335/qAgenticChatServer/linux-arm64/servers.zip",
+              "hashes": [
+                "sha384:6038aeca124ce0b3520947400b2dabeb11866018badb4974cefa1231807ca08ffa38ce0e9219c1f7ac93fe2b5acf12cb"
+              ],
+              "bytes": 137480843
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/f7b59d87-204c-4930-b62a-375730fd2335/clients.zip",
+              "hashes": [
+                "sha384:176e0ee6537e8d5691472a87a383f75266e94ad213d8268d2d606a1ddc54b5a17fa6aafb7fc52053449112fa8b52d1f0"
+              ],
+              "bytes": 1605331
+            }
+          ]
+        },
+        {
+          "platform": "darwin",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/f7b59d87-204c-4930-b62a-375730fd2335/qAgenticChatServer/mac-x64/servers.zip",
+              "hashes": [
+                "sha384:901f39f287145acc423362f3945acc9210ecc064ba269c1b216a6557e742007b17b1571dad4448d811e6769e4f8b653a"
+              ],
+              "bytes": 129993637
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/f7b59d87-204c-4930-b62a-375730fd2335/clients.zip",
+              "hashes": [
+                "sha384:176e0ee6537e8d5691472a87a383f75266e94ad213d8268d2d606a1ddc54b5a17fa6aafb7fc52053449112fa8b52d1f0"
+              ],
+              "bytes": 1605331
+            }
+          ]
+        },
+        {
+          "platform": "darwin",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/f7b59d87-204c-4930-b62a-375730fd2335/qAgenticChatServer/mac-arm64/servers.zip",
+              "hashes": [
+                "sha384:43cebd5ec7e12d1ee5bf7624b072cf1ba83e6cf48c5af007ef89af2fc0e3c20afaa035128df7d5367a70dac667be6165"
+              ],
+              "bytes": 127090192
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/f7b59d87-204c-4930-b62a-375730fd2335/clients.zip",
+              "hashes": [
+                "sha384:176e0ee6537e8d5691472a87a383f75266e94ad213d8268d2d606a1ddc54b5a17fa6aafb7fc52053449112fa8b52d1f0"
+              ],
+              "bytes": 1605331
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serverVersion": "1.0.0",
+      "isDelisted": false,
+      "runtime": {
+        "name": "standalone",
+        "version": "0.2.77"
+      },
+      "capabilities": [
+        {
+          "name": "code-whisperer-lsp-server",
+          "version": "0.0.33"
+        }
+      ],
+      "protocol": [
+        {
+          "name": "protocol",
+          "version": "0.2.77"
+        },
+        {
+          "name": "types",
+          "version": "0.1.26"
+        }
+      ],
+      "thirdPartyLicenses": "https://aws-language-servers.us-east-1.amazonaws.com/70e1fe8b-8cba-4c2c-bd28-bfea4ab5c6ad/THIRD_PARTY_LICENSES",
+      "targets": [
+        {
+          "platform": "windows",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/70e1fe8b-8cba-4c2c-bd28-bfea4ab5c6ad/qAgenticChatServer/win-x64/servers.zip",
+              "hashes": [
+                "sha384:a5f2cc71868801cd49e3268fbfabca5fc10a6d05a3588f65e8243fdfb91db493f62aca5117cfbfb5edc764a975343150"
+              ],
+              "bytes": 142269248
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/70e1fe8b-8cba-4c2c-bd28-bfea4ab5c6ad/clients.zip",
+              "hashes": [
+                "sha384:0d2b58f337c7172fd2633feb63ce018e1bd8e8052ae8dca11a7683e6fa1e91d64019796a8e745a29f8fa0e7326b3e679"
+              ],
+              "bytes": 1603328
+            }
+          ]
+        },
+        {
+          "platform": "windows",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/70e1fe8b-8cba-4c2c-bd28-bfea4ab5c6ad/qAgenticChatServer/win-x64/servers.zip",
+              "hashes": [
+                "sha384:a5f2cc71868801cd49e3268fbfabca5fc10a6d05a3588f65e8243fdfb91db493f62aca5117cfbfb5edc764a975343150"
+              ],
+              "bytes": 142269248
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/70e1fe8b-8cba-4c2c-bd28-bfea4ab5c6ad/clients.zip",
+              "hashes": [
+                "sha384:0d2b58f337c7172fd2633feb63ce018e1bd8e8052ae8dca11a7683e6fa1e91d64019796a8e745a29f8fa0e7326b3e679"
+              ],
+              "bytes": 1603328
+            }
+          ]
+        },
+        {
+          "platform": "linux",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/70e1fe8b-8cba-4c2c-bd28-bfea4ab5c6ad/qAgenticChatServer/linux-x64/servers.zip",
+              "hashes": [
+                "sha384:96e0205d5f2cb2767bd4c56e235283d0161b21e6326b05525d1b5206c5641898cb589fe04c71a6f70ad84a3cc0d795c1"
+              ],
+              "bytes": 149598054
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/70e1fe8b-8cba-4c2c-bd28-bfea4ab5c6ad/clients.zip",
+              "hashes": [
+                "sha384:0d2b58f337c7172fd2633feb63ce018e1bd8e8052ae8dca11a7683e6fa1e91d64019796a8e745a29f8fa0e7326b3e679"
+              ],
+              "bytes": 1603328
+            }
+          ]
+        },
+        {
+          "platform": "linux",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/70e1fe8b-8cba-4c2c-bd28-bfea4ab5c6ad/qAgenticChatServer/linux-arm64/servers.zip",
+              "hashes": [
+                "sha384:e8f60c00acf494d000159dca28d1489c487e0a761b7b1885fc030b133ee1f55e73c5f2b501daf6c0be0629720546b958"
+              ],
+              "bytes": 137478659
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/70e1fe8b-8cba-4c2c-bd28-bfea4ab5c6ad/clients.zip",
+              "hashes": [
+                "sha384:0d2b58f337c7172fd2633feb63ce018e1bd8e8052ae8dca11a7683e6fa1e91d64019796a8e745a29f8fa0e7326b3e679"
+              ],
+              "bytes": 1603328
+            }
+          ]
+        },
+        {
+          "platform": "darwin",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/70e1fe8b-8cba-4c2c-bd28-bfea4ab5c6ad/qAgenticChatServer/mac-x64/servers.zip",
+              "hashes": [
+                "sha384:d089fcc19b5534056710eef60bb14c7e7335de3fc5d4bb073fe08feb1b10ab2866788b32354a45a0f609ac1ae25166ff"
+              ],
+              "bytes": 129991533
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/70e1fe8b-8cba-4c2c-bd28-bfea4ab5c6ad/clients.zip",
+              "hashes": [
+                "sha384:0d2b58f337c7172fd2633feb63ce018e1bd8e8052ae8dca11a7683e6fa1e91d64019796a8e745a29f8fa0e7326b3e679"
+              ],
+              "bytes": 1603328
+            }
+          ]
+        },
+        {
+          "platform": "darwin",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/70e1fe8b-8cba-4c2c-bd28-bfea4ab5c6ad/qAgenticChatServer/mac-arm64/servers.zip",
+              "hashes": [
+                "sha384:3b021cb55d29dbd5e39db05a14d54ed23376d750dd3e3815671ae179f452f22ab99c3ee028f9a528558068969d74de39"
+              ],
+              "bytes": 127088102
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/70e1fe8b-8cba-4c2c-bd28-bfea4ab5c6ad/clients.zip",
+              "hashes": [
+                "sha384:0d2b58f337c7172fd2633feb63ce018e1bd8e8052ae8dca11a7683e6fa1e91d64019796a8e745a29f8fa0e7326b3e679"
+              ],
+              "bytes": 1603328
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serverVersion": "0.1.0",
+      "isDelisted": false,
+      "runtime": {
+        "name": "standalone",
+        "version": "0.2.53"
+      },
+      "capabilities": [
+        {
+          "name": "code-whisperer-lsp-server",
+          "version": "0.0.30"
+        }
+      ],
+      "protocol": [
+        {
+          "name": "protocol",
+          "version": "0.2.53"
+        },
+        {
+          "name": "types",
+          "version": "0.1.10"
+        }
+      ],
+      "thirdPartyLicenses": "https://aws-language-servers.us-east-1.amazonaws.com/94f043c2-80b2-4af6-917c-b9c2882c8e4d/THIRD_PARTY_LICENSES",
+      "targets": [
+        {
+          "platform": "windows",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/94f043c2-80b2-4af6-917c-b9c2882c8e4d/qAgenticChatServer/win-x64/servers.zip",
+              "hashes": [
+                "sha384:78588e4332ed9f381ee10411ddcc364a47e0d96bb101ef37fb3bb1a3b0b983fe37e441e367c632894275e81433bb9aa3"
+              ],
+              "bytes": 28413805
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/94f043c2-80b2-4af6-917c-b9c2882c8e4d/clients.zip",
+              "hashes": [
+                "sha384:06fe03d5fa9aa11767d399c99c7d12637719ca77afe06246262096cb5acee1d571157f88e246bac0280bfeb2aea5bd98"
+              ],
+              "bytes": 1419235
+            }
+          ]
+        },
+        {
+          "platform": "windows",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/94f043c2-80b2-4af6-917c-b9c2882c8e4d/qAgenticChatServer/win-x64/servers.zip",
+              "hashes": [
+                "sha384:78588e4332ed9f381ee10411ddcc364a47e0d96bb101ef37fb3bb1a3b0b983fe37e441e367c632894275e81433bb9aa3"
+              ],
+              "bytes": 28413805
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/94f043c2-80b2-4af6-917c-b9c2882c8e4d/clients.zip",
+              "hashes": [
+                "sha384:06fe03d5fa9aa11767d399c99c7d12637719ca77afe06246262096cb5acee1d571157f88e246bac0280bfeb2aea5bd98"
+              ],
+              "bytes": 1419235
+            }
+          ]
+        },
+        {
+          "platform": "linux",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/94f043c2-80b2-4af6-917c-b9c2882c8e4d/qAgenticChatServer/linux-x64/servers.zip",
+              "hashes": [
+                "sha384:f7b1bbbdc07713e7d47827d4d9884b6bd48e19b2583cd6ae662fe8d9fd437d8623118e4a3ee1d9218a6337849a188fa7"
+              ],
+              "bytes": 35034863
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/94f043c2-80b2-4af6-917c-b9c2882c8e4d/clients.zip",
+              "hashes": [
+                "sha384:06fe03d5fa9aa11767d399c99c7d12637719ca77afe06246262096cb5acee1d571157f88e246bac0280bfeb2aea5bd98"
+              ],
+              "bytes": 1419235
+            }
+          ]
+        },
+        {
+          "platform": "linux",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/94f043c2-80b2-4af6-917c-b9c2882c8e4d/qAgenticChatServer/linux-arm64/servers.zip",
+              "hashes": [
+                "sha384:f30e1fd6a0cd815a39f93055ea632ce91252e4d134a7431b7c77a4894e6ec3f28b609e971883fca7a29cf2ab786bdaa4"
+              ],
+              "bytes": 34909051
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/94f043c2-80b2-4af6-917c-b9c2882c8e4d/clients.zip",
+              "hashes": [
+                "sha384:06fe03d5fa9aa11767d399c99c7d12637719ca77afe06246262096cb5acee1d571157f88e246bac0280bfeb2aea5bd98"
+              ],
+              "bytes": 1419235
+            }
+          ]
+        },
+        {
+          "platform": "darwin",
+          "arch": "x64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/94f043c2-80b2-4af6-917c-b9c2882c8e4d/qAgenticChatServer/mac-x64/servers.zip",
+              "hashes": [
+                "sha384:4cb783e98e6f7e5f5d6b46a336a0cb4c9a5dac93e983cea6e9f8bfb9a8f8901e6ecb1ac9844f8f2c4371c36ff0b32fea"
+              ],
+              "bytes": 31662365
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/94f043c2-80b2-4af6-917c-b9c2882c8e4d/clients.zip",
+              "hashes": [
+                "sha384:06fe03d5fa9aa11767d399c99c7d12637719ca77afe06246262096cb5acee1d571157f88e246bac0280bfeb2aea5bd98"
+              ],
+              "bytes": 1419235
+            }
+          ]
+        },
+        {
+          "platform": "darwin",
+          "arch": "arm64",
+          "contents": [
+            {
+              "filename": "servers.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/94f043c2-80b2-4af6-917c-b9c2882c8e4d/qAgenticChatServer/mac-arm64/servers.zip",
+              "hashes": [
+                "sha384:e886aadcfbe4c2c24957fd165fba7c779201f78d63b58076c1c5ce0f9e40469e9f8573da522819a8424cef36ff0aa184"
+              ],
+              "bytes": 30443076
+            },
+            {
+              "filename": "clients.zip",
+              "url": "https://aws-language-servers.us-east-1.amazonaws.com/94f043c2-80b2-4af6-917c-b9c2882c8e4d/clients.zip",
+              "hashes": [
+                "sha384:06fe03d5fa9aa11767d399c99c7d12637719ca77afe06246262096cb5acee1d571157f88e246bac0280bfeb2aea5bd98"
+              ],
+              "bytes": 1419235
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
