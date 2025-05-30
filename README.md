@@ -46,3 +46,6 @@ The script generates platform-specific packages with:
 - Your custom `aws-lsp-codewhisperer.js` in `servers.zip`
 - Your custom `amazonq-ui.js` in `clients.zip`
 - SHA384 checksums for verification 
+
+## What you need to do after run script
+The servers.zip and clients.zip under 1.9.0/alpha-{platform}/ should be good to upload to your S3.
