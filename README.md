@@ -51,3 +51,4 @@ Gives the URL to the new manifest.json file
 ## What you need to do after run script
 -  Update manifestUrl in `aws-toolkit-vscode/packages/amazonq/src/lsp/config.ts`
 -  Update supportedVersions to the new VERSION
+-  Run - `npm run package` for aws-toolkit-vscode
