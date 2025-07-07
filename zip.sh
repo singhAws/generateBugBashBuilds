@@ -1,5 +1,13 @@
 #!/bin/bash
-VERSION="1.9.0"
+
+# Check if VERSION is provided as an argument
+if [ $# -eq 0 ]; then
+    echo "Error: VERSION parameter is required"
+    echo "Usage: $0 <VERSION>"
+    exit 1
+fi
+
+VERSION="$1"
 
 # Function to process a single platform
 process_platform() {
@@ -50,21 +58,51 @@ process_platform() {
 }
 
 # Process for each platform
-process_platform "darwin-arm64"
-process_platform "darwin-x64"
 process_platform "windows-x64"
+process_platform "windows-arm64"
+process_platform "linux-x64"
+process_platform "linux-arm64"
+process_platform "darwin-x64"
+process_platform "darwin-arm64"
 
 echo "All tasks completed successfully!"
 
-PLATFORMS=("darwin-arm64" "darwin-x64" "windows-x64")
+PLATFORMS=("windows-x64" "windows-arm64" "linux-x64" "linux-arm64" "darwin-x64" "darwin-arm64")
+
+# Create JSON file with zip information
+json_file="$VERSION/zip_info.json"
+echo "[" > "$json_file"
+
+first_entry=true
 
 for platform in "${PLATFORMS[@]}"; do
-    file="$VERSION/alpha-$platform/servers.zip"
-    echo "File: $file"
-    if [[ -f "$file" ]]; then
-        echo "SHA384: $(shasum -a 384 "$file" | awk '{print $1}')"
-    else
-        echo "File not found"
-    fi
-    echo "-------------------"
+    for type in "servers" "clients"; do
+        file="$VERSION/alpha-$platform/$type.zip"
+        if [[ -f "$file" ]]; then
+            # Calculate shasum and file size
+            shasum=$(shasum -a 384 "$file" | awk '{print $1}')
+            bytes=$(stat -f %z "$file")
+            
+            # Add comma before entry if not the first one
+            if [ "$first_entry" = true ]; then
+                first_entry=false
+            else
+                echo "," >> "$json_file"
+            fi
+            
+            # Add JSON entry
+            cat << EOF >> "$json_file"
+  {
+    "path": "$VERSION/alpha-$platform/$type.zip",
+    "shasum": "$shasum",
+    "bytes": $bytes
+  }
+EOF
+        fi
+    done
 done
+
+echo "
+]" >> "$json_file"
+
+echo "JSON file created at $json_file"

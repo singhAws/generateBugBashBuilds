@@ -43,7 +43,7 @@ def download_platform_files(target):
 
 def main():
     # Load the manifest
-    with open('manifest.json', 'r') as f:
+    with open('manifest-latest.json', 'r') as f:
         manifest = json.load(f)
     
     all_download_tasks = []
