@@ -13,7 +13,7 @@ This repository contains tools and files for building custom AWS language server
 
    2. Environment Cleanup: 
       • Removes old manifest files, JavaScript files, and version directories
-      • Cleans the toolsForBuild workspace
+      • Cleans the generateBugBashBuilds workspace
 
    3. Manifest Download: 
       • Downloads the latest manifest.json from AWS servers

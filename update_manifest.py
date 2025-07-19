@@ -13,7 +13,7 @@ def update_manifest(version):
     Args:
         version (str): The version to use for updating the manifest
     """
-    # Get the base directory (toolsForBuild)
+    # Get the base directory (generateBugBashBuilds)
     base_dir = os.path.dirname(os.path.abspath(__file__))
     
     # Paths

@@ -11,12 +11,12 @@ VERSION="$1"
 echo "Using VERSION: $VERSION"
 
 # Source directory
-SOURCE_DIR="/Users/nkrsingh/GitHubLocal/rathore25"
+SOURCE_DIR="/Users/nkrsingh/GitHubLocal/singhAws"
 # Target directory
-TARGET_DIR="/Users/nkrsingh/GitHubLocal/rathore25/toolsForBuild"
+TARGET_DIR="/Users/nkrsingh/GitHubLocal/singhAws/generateBugBashBuilds"
 
-# Step 1: Clean up toolsForBuild folder
-echo "Cleaning up toolsForBuild folder..."
+# Step 1: Clean up generateBugBashBuilds folder
+echo "Cleaning up generateBugBashBuilds folder..."
 cd "$TARGET_DIR" || exit 1
 rm -f manifest.json manifest-latest.json aws-lsp-codewhisperer.js amazonq-ui.js
 rm -rf prod-*
